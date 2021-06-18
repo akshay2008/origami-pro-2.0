@@ -1,0 +1,58 @@
+body{
+    background-color: #24b4f7;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    }
+    .but p{
+
+        opacity: 0;
+
+    }
+    .but:hover p{
+
+        opacity: 1;
+        
+        }
+    .but{
+
+    margin-right: 100px;
+    
+        
+        }
+    .but img{
+
+        opacity: .33;
+        
+        }
+    .but:hover img{
+
+        opacity: 1;
+        
+        }
+    .item img{
+
+        opacity: .33;
+        
+        }
+    .item p{
+
+       opacity: 0;
+            
+        }
+    .item:hover img{
+
+        opacity: 1;
+            
+        }
+    .item:hover p{
+
+        opacity: 1;
+            
+        }
+    .menu{
+        text-align: center;
+        }
